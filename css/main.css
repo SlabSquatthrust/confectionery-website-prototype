@@ -3,13 +3,14 @@
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
+
 html {
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Amaranth', sans-serif;
+  font-family: "Amaranth", sans-serif;
   font-size: 100%;
   line-height: 1.3;
 }
@@ -34,28 +35,28 @@ h1 {
   margin-top: 0;
 }
 
- nav {
+nav {
   background-color: #999;
- }
+}
 
- nav ul {
-   padding: 0;
-   margin-bottom: 0;
- }
+nav ul {
+  padding: 0;
+  margin-bottom: 0;
+}
 
- nav ul li {
+nav ul li {
   display: block;
   list-style: none;
- }
+}
 
- nav ul li a {
+nav li a {
   text-decoration: none;
   color: pink;
- }
+}
 
- nav ul li a:hover {
-   color: skyblue;
- }
+nav li a:hover {
+  color: skyblue;
+}
 
 main {
   margin: 0;
@@ -114,7 +115,7 @@ h2 {
 }
 
 .map p {
-  margin: 0
+  margin: 0;
 }
 
 footer {
@@ -181,7 +182,7 @@ footer {
     float: left;
   }
 
-  .map{
+  .map {
     clear: both;
   }
 
@@ -202,7 +203,7 @@ footer {
 
   .pitch p, h2 {
     max-width: 25em;
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(255, 255, 255, .5);
   }
 
   .pitch img {
