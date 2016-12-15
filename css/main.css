@@ -82,3 +82,41 @@ main {
 .confections p {
   padding-left: 1em;
 }
+
+h2 {
+  font-size: 1.2em;
+}
+
+.pitch {
+  margin-left: 1em;
+  position: relative;
+}
+
+.pitch img {
+  width: 100%;
+  max-width: 15em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.map {
+  border: 4px solid #bbb;
+  margin: .7em;
+  max-width: 25em;
+  background-color: #bbb;
+  text-align: center;
+}
+
+.map img {
+  width: 100%;
+  max-width: 25em;
+}
+
+.map p {
+  margin: 0
+}
+
+footer {
+  font-size: .5em;
+}
