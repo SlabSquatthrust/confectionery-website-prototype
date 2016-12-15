@@ -186,3 +186,46 @@ footer {
   }
 
 }
+
+@media only screen and (min-width: 60em) {
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .pitch {
+    float: right;
+    max-width: 45%;
+    right: 50%;
+    transform: translateX(105%);
+  }
+
+  .pitch p, h2 {
+    max-width: 25em;
+    background-color: rgba(255,255,255,.5);
+  }
+
+  .pitch img {
+    position: absolute;
+    z-index: -1;
+  }
+
+  .map {
+    max-width: 45%;
+    margin: .7em;
+    margin-left: 5%;
+    clear: none;
+  }
+  .map img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+}
