@@ -123,6 +123,7 @@ footer {
 }
 
 @media only screen and (min-width: 25em) {
+
   h1 {
     font-size: 1.6em;
   }
@@ -163,14 +164,15 @@ footer {
   }
 
   .map {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
 
 @media only screen and (min-width: 38em) {
+
   html {
     font-size: 110%;
     line-height: 1.4;
@@ -189,6 +191,7 @@ footer {
 }
 
 @media only screen and (min-width: 60em) {
+
   html {
     font-size: 120%;
     line-height: 1.5;
@@ -217,13 +220,16 @@ footer {
     margin-left: 5%;
     clear: none;
   }
+
   .map img {
     width: 100%;
     max-width: 100%;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
+
   html {
     font-size: 130%;
     line-height: 1.5;
